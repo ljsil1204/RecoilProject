@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {View, Text} from 'react-native';
 import {Picker} from '@react-native-picker/picker';
 import { useRecoilState, useRecoilValue } from 'recoil';
-import { todoIdState, selecteTodo } from './store/todo';
+import { todoIdState, selecteTodo } from '../../store/todo';
 
 
 function ToDoList() {

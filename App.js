@@ -11,6 +11,7 @@ import {SafeAreaView} from 'react-native';
 import TextCount from './component/TextCount';
 import NumberCount from './component/NumberCount';
 import ToDoList from './component/todolist';
+import UserAdd from './component/userAdd';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <TextCount/>
       <NumberCount />
       <ToDoList/>
+      <UserAdd/>
     </SafeAreaView>
   );
 }
