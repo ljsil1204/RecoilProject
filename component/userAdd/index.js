@@ -1,13 +1,13 @@
 import React from 'react';
-import {RecoilRoot} from 'recoil';
+import {View} from 'react-native';
 import Add from './Add';
 
 
 function main() {
   return (
-    <RecoilRoot>
+    <View>
       <Add/>
-    </RecoilRoot>
+    </View>
   );
 }
 

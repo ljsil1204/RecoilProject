@@ -67,11 +67,9 @@ function CharCounter() {
 
 function TextCount() {
   return (
-    <SafeAreaView>
-      <RecoilRoot>
-        <CharCounter />
-      </RecoilRoot>
-    </SafeAreaView>
+    <View>
+      <CharCounter />
+    </View>
   );
 }
 

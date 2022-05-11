@@ -1,15 +1,15 @@
 import React from 'react';
-import {RecoilRoot} from 'recoil';
+import {View} from 'react-native';
 import ControlNumber from './ControlNumber';
 import DisplayNumber from './DisplayNumber';
 
 
 function main() {
   return (
-    <RecoilRoot>
+    <View>
       <ControlNumber/>
       <DisplayNumber/>
-    </RecoilRoot>
+    </View>
   );
 }
 

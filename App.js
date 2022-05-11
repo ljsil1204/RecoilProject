@@ -12,15 +12,16 @@ import TextCount from './component/TextCount';
 import NumberCount from './component/NumberCount';
 import ToDoList from './component/todolist';
 import UserAdd from './component/userAdd';
+import {RecoilRoot} from 'recoil';
 
 function App() {
   return (
-    <SafeAreaView>
+    <RecoilRoot>
       <TextCount/>
       <NumberCount />
       <ToDoList/>
       <UserAdd/>
-    </SafeAreaView>
+    </RecoilRoot>
   );
 }
 
