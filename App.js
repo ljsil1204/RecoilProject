@@ -10,12 +10,14 @@ import React from 'react';
 import {SafeAreaView} from 'react-native';
 import TextCount from './component/TextCount';
 import NumberCount from './component/NumberCount';
+import ToDoList from './component/todolist';
 
 function App() {
   return (
     <SafeAreaView>
       <TextCount/>
       <NumberCount />
+      <ToDoList/>
     </SafeAreaView>
   );
 }
